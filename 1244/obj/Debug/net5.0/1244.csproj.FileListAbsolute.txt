@@ -1,0 +1,16 @@
+C:\Users\phtso\source\repos\AvaliacaoSprint2\1244\bin\Debug\net5.0\1244.exe
+C:\Users\phtso\source\repos\AvaliacaoSprint2\1244\bin\Debug\net5.0\1244.deps.json
+C:\Users\phtso\source\repos\AvaliacaoSprint2\1244\bin\Debug\net5.0\1244.runtimeconfig.json
+C:\Users\phtso\source\repos\AvaliacaoSprint2\1244\bin\Debug\net5.0\1244.runtimeconfig.dev.json
+C:\Users\phtso\source\repos\AvaliacaoSprint2\1244\bin\Debug\net5.0\1244.dll
+C:\Users\phtso\source\repos\AvaliacaoSprint2\1244\bin\Debug\net5.0\ref\1244.dll
+C:\Users\phtso\source\repos\AvaliacaoSprint2\1244\bin\Debug\net5.0\1244.pdb
+C:\Users\phtso\source\repos\AvaliacaoSprint2\1244\obj\Debug\net5.0\1244.csproj.AssemblyReference.cache
+C:\Users\phtso\source\repos\AvaliacaoSprint2\1244\obj\Debug\net5.0\1244.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\phtso\source\repos\AvaliacaoSprint2\1244\obj\Debug\net5.0\1244.AssemblyInfoInputs.cache
+C:\Users\phtso\source\repos\AvaliacaoSprint2\1244\obj\Debug\net5.0\1244.AssemblyInfo.cs
+C:\Users\phtso\source\repos\AvaliacaoSprint2\1244\obj\Debug\net5.0\1244.csproj.CoreCompileInputs.cache
+C:\Users\phtso\source\repos\AvaliacaoSprint2\1244\obj\Debug\net5.0\1244.dll
+C:\Users\phtso\source\repos\AvaliacaoSprint2\1244\obj\Debug\net5.0\ref\1244.dll
+C:\Users\phtso\source\repos\AvaliacaoSprint2\1244\obj\Debug\net5.0\1244.pdb
+C:\Users\phtso\source\repos\AvaliacaoSprint2\1244\obj\Debug\net5.0\1244.genruntimeconfig.cache
