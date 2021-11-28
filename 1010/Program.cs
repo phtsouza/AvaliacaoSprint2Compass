@@ -13,16 +13,16 @@ namespace Simple_Calculate
 
             string[] vetUm = Console.ReadLine().Split(' ');
             string[] vetDois = Console.ReadLine().Split(' ');
-
+            // Armazena os valores do produto 1
             code1 = int.Parse(vetUm[0]);
             unit1 = int.Parse(vetUm[1]);
             preco1 = double.Parse(vetUm[2], CultureInfo.InvariantCulture);
-
+            // Armazena os valores do produto 2
             code2 = int.Parse(vetDois[0]);
             unit2 = int.Parse(vetDois[1]);
             preco2 = double.Parse(vetDois[2], CultureInfo.InvariantCulture);
 
-            totalCompra = (unit1 * preco1) + (unit2 * preco2);
+            totalCompra = (unit1 * preco1) + (unit2 * preco2); // Realiza a conta do valor total da compra.
 
             Console.WriteLine("VALOR A PAGAR: R$ " + totalCompra.ToString("F2", CultureInfo.InvariantCulture));
         }

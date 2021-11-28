@@ -12,20 +12,20 @@ namespace _1234
             int i = 0;
             sentenca = Console.ReadLine();
 
-            while (sentenca != null)
+            while (sentenca != null) // Enquanto a sentença for diferente de nula
             {
                 for(i = 0; i< sentenca.Length; i++)
                 {
                     if(sentenca[i].ToString() != " ")
                     {
-                        if(letraPassada)
+                        if (letraPassada) // Se a letra passada for maiúscula
                         {
-                            Console.Write(sentenca[i].ToString().ToLower());
+                            Console.Write(sentenca[i].ToString().ToLower()); // Transforama a letra em minúscula
                             letraPassada = false;
                         }
-                        else
+                        else // Se a letra passada for minúsucula
                         {
-                            Console.Write(sentenca[i].ToString().ToUpper());
+                            Console.Write(sentenca[i].ToString().ToUpper()); // Transforma a letra em maiúsucula
                             letraPassada = true;
                         }
                     }

@@ -13,7 +13,7 @@ namespace _1013
             A = int.Parse(vetUm[0]);
             B = int.Parse(vetUm[1]);
             C = int.Parse(vetUm[2]);
-
+            // Fórmula para procurar o maior valor
             maiorAB = (A + B + Math.Abs(A - B)) / 2;
             maior = (maiorAB + C + Math.Abs(maiorAB - C)) / 2;
 

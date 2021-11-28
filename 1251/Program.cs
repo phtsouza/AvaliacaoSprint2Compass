@@ -2,6 +2,8 @@
 
 namespace _1251
 {
+
+    // Classe criada para armazenar os dados de uma letra
     public class Dados
     {
         public int freq;
@@ -17,7 +19,7 @@ namespace _1251
             int i, j, k = 0;
             int contFreq = 0;
 
-            text = Console.ReadLine();
+            text = Console.ReadLine(); // Armazena o texto informado.
 
             for (i=0; i<=1000; i++)
             {
@@ -37,7 +39,7 @@ namespace _1251
                             if (text[i] == text[j])
                             {
                                 contFreq++;
-                                visto[j] = true;
+                                visto[j] = true;  // Armazena se uma letra já foi vista ou não
                             }
                         }
                     }
@@ -62,6 +64,7 @@ namespace _1251
             
         }
 
+        // Função feita para ordenar os dados em relação a tabela asc.
         static void OrdenaAsc(Dados[] palavra, int tam)
         {
             Dados aux;
@@ -81,6 +84,7 @@ namespace _1251
             }
         }
 
+        // Função feita para ordenar os dados em relação a sua frequência.
         static void OrdenaFreq(Dados[] palavra, int tam)
         {
             Dados aux;

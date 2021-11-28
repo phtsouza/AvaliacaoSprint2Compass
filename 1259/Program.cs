@@ -16,9 +16,9 @@ namespace _1259
 
             for (k = 0; k < entradas; k++)
             {
-                n = int.Parse(Console.ReadLine());
+                n = int.Parse(Console.ReadLine()); // Armzena os valores das entradas.
 
-                if (n % 2 == 0)
+                if (n % 2 == 0) // Separa os valores informados em par ou ímpar.
                 {
                     par[i] = n;
                     i++;
@@ -71,6 +71,7 @@ namespace _1259
             }
         }
 
+        // Realiza a ordenção do vetor.
         static void MergeSort(int[] vet, int esq, int dir)
         {
             if(esq < dir)
@@ -84,6 +85,7 @@ namespace _1259
             }
         }
 
+        // Procedimento feito para printa o vetor em ordem crescente
         static void PrintaVetor(int[] vet, int tam)
         {
             int k;
@@ -93,6 +95,7 @@ namespace _1259
             }
         }
 
+        // Procedimento feito para printa o vetor em ordem decrescente
         static void PrintaVetorInvertido(int[] vet, int tam)
         {
             int k;

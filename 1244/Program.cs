@@ -10,7 +10,7 @@ namespace _1244
             string[] palavras;
             int i, j;
 
-            casos = int.Parse(Console.ReadLine());
+            casos = int.Parse(Console.ReadLine()); // Armazena o número de casos
 
             for(i = 0; i<casos; i++)
             {
@@ -27,6 +27,11 @@ namespace _1244
             }
         }
 
+        /*
+         Função feita para determinar o tamanho das palavras dentro de uma string 
+         Entrada: String
+         Saída: Tamanho da palavra
+        */
         public static int[] TamPalavra(String[] palavras)
         {
             int[] tamPalavras = new int[palavras.Length];
@@ -37,6 +42,11 @@ namespace _1244
             return tamPalavras;
         }
 
+        /*
+         Função feita para ordenar a string em relação ao tamanho das palavras
+         Entrada: String
+         Saída: String ordenada em relação ao tamanho das palavras dentro dela
+        */
         public static void OrdenaStringTam(String[] palavras)
         {
             int[] tamPalavras = TamPalavra(palavras);
@@ -53,6 +63,12 @@ namespace _1244
                 }
             }
         }
+
+        /*
+         Função feita para trocar uma string com outra.
+         Entrada: posição de troca, string e o seu tamanho.
+         Saída: string trocada com as posições informadas.
+        */
         public static void TrocaString(int pos1, int pos2, string[] palavras, int[] tamPalavras)
         {
             string aux = palavras[pos1];

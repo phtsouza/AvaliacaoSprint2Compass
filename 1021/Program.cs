@@ -13,8 +13,8 @@ namespace _1021
             int moeda1, moeda50, moeda25, moeda10, moeda05, moeda01;
 
             n = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            n += 0.001;
-
+            n += 0.001; // Importante para aproximação do resultado e fazer com que seja aceito no site
+            // Determinas as moedas e notas para o valor informado
             nota100 = (int)Math.Floor(n / 100.00);
             n = n % 100;
 

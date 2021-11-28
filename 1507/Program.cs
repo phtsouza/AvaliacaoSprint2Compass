@@ -11,12 +11,12 @@ namespace _1507
             string principal, subString;
             int i, j;
 
-            qntdCasos = int.Parse(Console.ReadLine());
+            qntdCasos = int.Parse(Console.ReadLine()); // Armazena a quantidade de casos.
 
             for(i=0; i<qntdCasos; i++)
             {
-                principal = Console.ReadLine();
-                qntdString = int.Parse(Console.ReadLine());
+                principal = Console.ReadLine(); // Armazena a string principal
+                qntdString = int.Parse(Console.ReadLine()); // armazena a quantidade de strings a serem comparadas
                 for (j = 0; j < qntdString; j++)
                 {
                     subString = Console.ReadLine();
@@ -32,6 +32,7 @@ namespace _1507
             }
         }
 
+        // Procedimento feito para analisar se uma string é substring da outra.
         static bool isSubString(string frase, string sub)
         {
             int tamString = frase.Length;
